@@ -100,6 +100,7 @@ class LinphoneUtils {
                 }
                 if (conferenceInfo != null) {
                     conferenceInfo.subject
+
                 } else {
                     if (conference.me.isFocus) {
                         AppUtils.getString(R.string.conference_local_title)
